@@ -1,0 +1,56 @@
+.box {
+	border: 1px solid #666;
+	padding: 4px;
+	border-radius: 5px;
+}
+
+a {
+	color: #333;
+}
+
+.box p {
+	background: #dedede;
+	color: #58595d;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: -10px;
+	padding: 7px;
+	margin-left: -5px;
+	width: 99.3%;
+	border: 1px solid #666;
+	
+}
+
+.btn-painel {
+	color: #f1f1f1;
+	background: #999;
+	border-radius: 2px;
+	padding: 7px;
+}
+
+.btn-painel-active {
+	background:#3CB371;
+	border-radius: 2px;
+	padding: 7px;
+	color: #f1f1f1;
+}
+
+footer {
+    position: relative;
+}
+
+.solicitacoes {
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.solicitacoes li {
+	padding: 10px;
+	border: 1px solid gray;
+	list-style: none;
+	transition:all 500ms ease;
+}
+
+.solicitacoes li:hover {
+	background: #ebebeb;
+}

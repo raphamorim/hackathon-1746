@@ -1,0 +1,36 @@
+a {
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+img {
+	border: none;
+}
+
+table, tr, td, h1, h2, h3, h4, h5, h6 {
+	padding: 0px;
+	margin: 0px auto;
+}
+
+h2 {	
+	color: #58595d;
+	font-family: Helvetica, sans-serif;
+	font-size: 33px;
+}
+
+h3 {
+	color: #999;
+}
+
+h6 {
+	margin: 0px auto;
+	padding: 0px;
+	font-size: 18px;
+
+}
+
+hr {
+	background: #999;
+	border: 1px solid #999;
+}

@@ -1,0 +1,55 @@
+#mainBody {
+    position: relative;
+    width: 100%;
+}
+
+ol.ordered-list {
+    counter-reset:li; /* Inicia contador*/
+    margin-left:0; /* Retira a margin */
+    padding-left:0; /* Retira o padding */
+}
+ol.ordered-list > li {
+    position:relative; 
+    margin:0 0 6px 2em; 
+    padding:4px 8px; 
+    list-style:none; 
+    width: 72%;
+    border-top:2px solid #ccc;
+    background:#fff;
+    cursor: default
+}
+ol.ordered-list > li:before {
+    content:counter(li); 
+    counter-increment:li;
+    position:absolute;
+    top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:2em;
+    margin-right:8px;
+    padding:4px;
+    border-top:2px solid #ccc;
+    color:#fff;
+    background:#ccc;
+    font-weight:bold;
+    font-family: Helvetica, sans-serif;
+    text-align:center;
+}
+
+.btn-begin {
+    padding: 10px;
+    cursor: pointer;
+    background: #66a547;
+    transition:all 500ms ease;
+    color: #fff;
+}
+
+.btn-begin:hover {
+    background: green;
+    box-shadow: 0px 0px 2px gray;
+    text-shadow:0px 0px 1px #fff;
+}
+
+
